@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MASENGESHO Keddy Heroise - Professional Portfolio showcasing expertise in web development and design">
+    <meta name="author" content="MASENGESHO Keddy Heroise">
+    <title>Keddy Heroise | Professional Portfolio</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">KH</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">MASENGESHO Keddy Heroise</span></h1>
+                <h2 class="typing-text">I'm a <span id="typed-text"></span></h2>
+                <p>Professional Web Developer & Creative Problem Solver</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm <strong>MASENGESHO Keddy Heroise</strong>, a passionate and professional web developer dedicated to creating exceptional digital experiences. With a keen eye for design and strong technical expertise, I transform ideas into powerful, user-friendly web applications that make a difference.</p>
+                    <br>
+                    <p>My approach combines creativity with technical precision, ensuring that every project I work on is not only visually appealing but also highly functional and scalable. I believe in continuous learning and staying updated with the latest technologies to deliver cutting-edge solutions.</p>
+                    <div class="personal-info">
+                        <div><strong><i class="fas fa-user"></i> Name:</strong> MASENGESHO Keddy Heroise</div>
+                        <div><strong><i class="fas fa-envelope"></i> Email:</strong> keddy.heroise@example.com</div>
+                        <div><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Your City, Country</div>
+                        <div><strong><i class="fas fa-phone"></i> Phone:</strong> +250 XXX XXX XXX</div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be dynamically added via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be dynamically added -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always excited to collaborate on new projects and bring ideas to life. Whether you have a project in mind or just want to say hello, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div><i class="fas fa-envelope"></i> keddy.heroise@example.com</div>
+                        <div><i class="fas fa-phone"></i> +250 XXX XXX XXX</div>
+                        <div><i class="fab fa-skype"></i> keddy.heroise</div>
+                    </div>
+                </div>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MASENGESHO Keddy Heroise. All rights reserved. | Built with <i class="fas fa-heart"></i> by Keddy Heroise</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
+<body>
+    <!-- Animated Artist Canvas Background -->
+    <canvas id="artistCanvas"></canvas>
+    
+    <!-- Rest of your existing content -->
+    <nav class="navbar">
+        <!-- ... rest of your navbar ... -->
+             <!-- Artist Animation -->
+    <script src="js/artist-animation.js"></script>
+    
+    <!-- Your existing scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
